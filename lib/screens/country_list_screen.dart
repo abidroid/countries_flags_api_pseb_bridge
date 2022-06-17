@@ -63,6 +63,7 @@ class _CountryListScreenState extends State<CountryListScreen> {
                         return CountryDetailScreen(country: country);
                       }));
                     },
+
                     child: Container(
                       padding: const EdgeInsets.all(10),
                       margin: const EdgeInsets.only(bottom: 10),
