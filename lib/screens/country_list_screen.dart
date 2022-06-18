@@ -57,6 +57,7 @@ class _CountryListScreenState extends State<CountryListScreen> {
 
                   Country country = countries[index];
 
+
                   return GestureDetector(
                     onTap: (){
                       Navigator.of(context).push(MaterialPageRoute(builder: (context){
